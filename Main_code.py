@@ -84,7 +84,7 @@ def Chat_bot():
         user.delete(0, END)
         password.delete(0, END)
         Label(root2, text="", bg="BLACK").pack()
-        Label(root2, text="Registration Complete", fg='red', bg='black', font=('arial', 12, 'bold'), command = webbrowser.open("https://www.kommunicate.io/livechat-demo?appId=28cef54df27324a0b01d2a467d5e75d02&botIds=bharani-1ywji&assignee=bharani-1ywji")).pack()
+        Label(root2, text="Registration Complete", fg='red', bg='black', font=('arial', 12, 'bold'), command = webbrowser.open("https://www.kommunicate.io/livechat-demo?appId=37b2db324edec32e5ac4b04e23b37d92f&botIds=bharani-twz9i&assignee=bharani-twz9i")).pack()
 
     def login():
         global root2
